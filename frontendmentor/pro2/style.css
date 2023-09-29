@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.container{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.container .box1{
+    width: 30vw;
+    height: 90vh;
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    flex-direction: column;
+}
+.container>div>h1{
+    color:hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    margin: 1em;
+    position: relative;
+    top: 6%;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.container>div>p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    margin: 1.3em;
+    font-size:1em ;
+    padding: 10px 75px 38px 5px;
+    font-weight: 50;
+}
+.container>div>button{
+    background-color: hsl(0, 0%, 95%);
+    width: 9em;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    left: 2em;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+    font-size: 1em;
+}
+.container>div>svg{
+    margin-top:4em;
+    margin-left: 2em; 
+}
+.container .box2{
+    width: 30vw;
+    height: 90vh;
+    background-color:hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+}
+.container .box3{
+    width: 30vw;
+    height: 90vh;
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+.container .box1 button{
+    color: hsl(31, 77%, 52%);
+}
+.container .box2 button{
+    color: hsl(184, 100%, 22%) ;
+}
+.container .box3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+@media(max-width:900px){
+
+    .container{
+        width: 100vw;
+        height: 240vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 10em;
+
+    }
+    .container .box1{
+        width: 70vw;
+        height: 100vh;
+        border-radius: 8px 8px 0 0;
+    }
+    .container .box2{
+        width: 70vw;
+    }
+    .container .box3{
+        width: 70vw;
+        border-radius: 0 0 8px 8px;
+    }
+    .container>div>button{
+        position: relative;
+        top: -6%;
+    }
+}
+@media(max-width:757px){
+    
+    .container{
+        width: 100vw;
+        height: 240vh;
+        padding-bottom: 10em;
+    }
+    .container .box1{
+        width: 50vw;
+        height: 100vh;
+
+    }
+    .container .box2{
+        width: 50vw;
+        height: 100vh;
+
+    }
+    .container .box3{
+        width: 50vw;
+        height: 100vh;
+
+    }
+}
+@media(max-width:450px){
+    .container{
+        width: 100vw;
+        height: 260vh;
+        padding-bottom: 10em;
+    }
+    .container .box1{
+        width: 80vw;
+    }
+    .container .box2{
+        width: 80vw;
+    }
+    .container .box3{
+        width: 80vw;
+    }
+}
+@media(max-width:320px){
+    .container{
+        width: 100vw;
+        height: 250vh;
+    }
+    
+}

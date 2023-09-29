@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ footer{
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    height: 70vh;
+    color: white;
+    font-family: 'popins',sans-serif;   
+ }
+ footer .fcnt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin-left: 5em;
+ }
+ footer .fcnt0{
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+ }
+ footer .fcnt0 ion-icon{
+    margin: 12px;
+ }
+ footer .fcnt1{
+    width: 44vw;
+    margin: 1.9em;
+    position: relative;
+    left: -7%;
+    font-size: 0.9em;
+ }
+ footer .fcnt1 h4{
+    margin-top: 2px;
+ }
+ footer .fcnt2{
+    margin: 1.9em;
+    position: relative;
+    left: -8%;
+    font-size: 0.9em;
+ }
+
+ footer .fcnt3{
+    margin: 1.9em;
+    position: relative;
+    left: -8%;
+    font-size: 0.9em;
+
+ }
+footer .fcnt4{
+    width: 6vw;
+    margin: 1.9em;
+    position: relative;
+    left: -8%;
+    font-size: 0.9em;
+}
+footer .fcnt4 ion-icon{
+    margin-top: 20px;
+}
+footer h5{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 3em;
+}
+
+
+
+@media (max-width:700px){
+    body{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 130vh;
+    }
+    footer .fcnt{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+    }
+    footer .fcnt0{
+        margin: 20px;
+    }
+    footer .fcnt1{ 
+        width: 75%;
+        position: relative;
+        left: 27px;
+        top: -62%;
+    }
+    footer .fcnt2{
+        position: relative;
+        left: 0;
+        top: -85%;
+
+    }
+    footer .fcnt3{
+        position: relative;
+        left: 0;
+        top: -110%;
+    }
+    footer .fcnt4{
+         width: 50%;
+        position: relative;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        top: -125%
+    }
+    footer .fcnt4 ion-icon{
+        margin: 4px;
+    }
+    footer .last{
+        /* position: relative;
+        top: 15%;
+        left: -20%; */
+        display:flex;
+        justify-content: center;
+        position: relative;
+        top: 15%;
+
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    
+    <footer>
+        <img src="images/logo.svg" alt="" class="footerimg">
+        <div class="fcnt">
+          <div class="fcnt0">
+            <ion-icon name="location-outline"></ion-icon>
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-icon name="mail-open-outline"></ion-icon>
+          </div> 
+          <div class="fcnt1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </p>
+            <h4>+1-543-123-4567</h4>
+            <h4>example@huddle.com</h4>
+          </div>
+        
+          <div class="fcnt2">
+            <h4> About Us</h4>
+            <h4>What We Do</h4>
+            <h4>FAQ</h4>
+          </div>
+          <div class="fcnt3">
+            <h4>Career</h4>
+            <h4>Blog</h4>
+            <h4>Contact Us</h4>
+          </div>
+          <div class="fcnt4">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+        </div>
+        <div class="last">
+         <h5>&copy; Copyright 2023 Huddle. All rights reserved. By <span
+            style="color: aqua;font-size: 20px; font-weight: bold;">Saurav</span></h5>    
+        </div
+        </footer>
+
+
+
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
